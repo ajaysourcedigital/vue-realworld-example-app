@@ -1,5 +1,5 @@
 {
-  "author": "Emmanuel Vilsbol <emmanuel@vilsbol.com>",
+  "author": "pandastack-team <admin@pandastack.io>",
   "dependencies": {
     "axios": "^0.19.0",
     "date-fns": "^1.30.1",
