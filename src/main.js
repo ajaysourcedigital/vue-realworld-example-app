@@ -3,6 +3,11 @@ import App from "./App.vue";
 import router from "./router";
 import store from "./store";
 import "./registerServiceWorker";
+import { browserTracker } from '@pandastack/event-tracker'
+
+// Initialize the analytics tracker
+browserTracker.init({ project_id: "88191dac-9572-4588-8434-1beb5726f568" })
+
 
 import { CHECK_AUTH } from "./store/actions.type";
 import ApiService from "./common/api.service";
